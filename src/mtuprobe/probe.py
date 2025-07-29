@@ -1,4 +1,7 @@
-from collections import Callable
+try:
+    from collections.abc import Callable  # Python >= 3.7
+except ImportError:
+    from collections import Callable 
 
 
 def bisect(n, mapper, tester):
