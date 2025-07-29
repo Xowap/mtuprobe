@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mtuprobe"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tool to find out maximum MTU size on an IPv4 path"
 authors = ["Rémy Sanchez <remy.sanchez@hyperthese.net>"]
 license = "WTFPL"
